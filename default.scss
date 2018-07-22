@@ -1,0 +1,23 @@
+$maintheme : #ffaaaa;
+
+.table {
+	border-collapse: collapse;
+	cursor: default;
+	th,td{
+		border: 1px black solid;
+		padding: 1px;
+	}
+	thead {
+		-webkit-touch-callout:none;
+		-webkit-user-select:none;
+		-ms-user-select:none;
+		-moz-user-select:none;
+		user-select:none;
+	}
+	tbody tr:hover {
+		background: $maintheme;
+	}
+	.toolbar {
+		
+	}
+}

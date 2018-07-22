@@ -1,0 +1,16 @@
+.table {
+  border-collapse: collapse;
+  cursor: default; }
+  .table th, .table td {
+    border: 1px black solid;
+    padding: 1px; }
+  .table thead {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    user-select: none; }
+  .table tbody tr:hover {
+    background: #ffaaaa; }
+
+/*# sourceMappingURL=default.css.map */
