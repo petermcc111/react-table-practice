@@ -190,8 +190,8 @@ class Excel extends React.Component{
 				<tr>{title}</tr>
 			</thead>
 			<tbody onDoubleClick={this._showEditor}>
-				{this._renderSearch(),
-				this.state.data.map((row,rIndex) => 
+				{this._renderSearch()}
+				{this.state.data.map((row,rIndex) => 
 				<tr key={rIndex}>
 					{row.map((cell,cIndex)=>{
 						var edit = excel.state.edit;
